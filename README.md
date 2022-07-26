@@ -18,6 +18,6 @@ You will also see any lint errors in the console.
 
 Launches unit tests for redux store
 
-### `npm cypress:test`
+### `npm run test:cy`
 
 Launches E2E tests
