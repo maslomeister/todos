@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import { v4 as uuid } from "uuid";
 
 import { NewTask } from "../new-task/new-task";
