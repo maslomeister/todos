@@ -1,6 +1,6 @@
 ## Deployed website
 
-[Visit website](https://master--rainbow-daffodil-0efd4b.netlify.app/)
+[Visit website](https://62dfedc1c520f00008ee81e3--rainbow-daffodil-0efd4b.netlify.app/)
 
 ## Available Scripts
 
