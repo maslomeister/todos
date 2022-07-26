@@ -1,4 +1,6 @@
-## View website
+## Deployed website
+
+[Visit website](https://master--rainbow-daffodil-0efd4b.netlify.app/)
 
 ## Available Scripts
 
