@@ -1,0 +1,84 @@
+.search-item_style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 14px;
+  color: #7c7c7c;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  box-shadow: -2px 2px 2px #e3e3e3, 2px 2px 2px #e3e3e3;
+}
+
+.content {
+  word-break: break-all;
+}
+
+.content_completed {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  opacity: 0.5;
+}
+
+label input {
+  visibility: hidden;
+  display: block;
+  height: 0;
+  width: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+label span {
+  position: relative;
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #e3e3e3;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+input[type="checkbox"]:checked + span {
+  border: 1px solid #8fccbf;
+}
+
+.tick-mark {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 18px;
+  height: 18px;
+}
+
+.tick-mark_show {
+  display: block;
+}
+
+.tick-mark::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 50%;
+  width: 1px;
+  background-color: #8fccbf;
+  content: "";
+  transform: translateX(9px) rotate(-60deg);
+  transform-origin: left bottom;
+}
+
+.tick-mark::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #8fccbf;
+  content: "";
+  transform: translateX(9px) rotate(-60deg);
+  transform-origin: left bottom;
+}
